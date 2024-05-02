@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2f0787b-4128-40e0-90e2-9e4d4808cd7f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MS1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MS1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MainTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/פרויקט משחק Book Scrabble אבן דרך 1.pdf" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/BloomFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/BookScrabbleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CacheReplacementPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/DictionaryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/IOSearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/LFU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/LRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MainTrain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MainTrain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "InonELGABSI"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/InonELGABSI/scrabbleGame.git",
+    "accountId": "604868fb-22ad-4d88-a26d-5077e3cdd9b7"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -34,10 +51,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.MainTrain.executor": "Run",
+    "Application.MainTrain2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/inonelgabsi/Desktop/patam1/MS1",
+    "last_opened_file_path": "/Users/inonelgabsi/Desktop/patam1/Milestones/MS1/src/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,7 +65,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainTrain3">
     <configuration name="MainTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.MainTrain" />
       <module name="MS1" />
@@ -61,8 +87,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTrain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.MainTrain2" />
+      <module name="MS1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTrain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.MainTrain3" />
+      <module name="MS1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTrain3" />
+        <item itemvalue="Application.MainTrain2" />
         <item itemvalue="Application.MainTrain" />
       </list>
     </recent_temporary>
@@ -86,6 +140,7 @@
       <workItem from="1713572006945" duration="36000" />
       <workItem from="1713572047287" duration="94000" />
       <workItem from="1714067218197" duration="364000" />
+      <workItem from="1714657029939" duration="1029000" />
     </task>
     <servers />
   </component>
